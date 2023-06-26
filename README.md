@@ -12,6 +12,9 @@ Axiety: contiene el código que meueve al "Player" por el laberinto Light-Dark B
 Memory_Evaluation: Contiene tres carpetas correspondientes a los tres modelos laberintos desarrolaldos para la evaluación de la memoria en ratones. Cada carpeta incluye el código "MoveChacater" modificado para cada modelo de laberinto. Además, la carpeta "Y_Model" contiene un ejemplo del código implementado para la animación de una de las puertas presentes en el laberinto. El código empleado para las demás puertas es idéntico a este, pero modificando la puerta que se activa.
 
 Por último, aparecen tres ficheros fuera de las carpetas, estos son "CameraLook.cs", "PlayerMovement.cs" y "Teletransporte.cs". Estos contienen código presente en los cuatro modelos de laberintos.
+
 CameraLook: Control del movimiento de la cámara. 
+
 PlayerMovement: Control manual del movimiento del "Player"  mediante el teclado y el mouse. Se ha implementado para comprobar de forma sencilla el funcionemiento de las diferentes partes del laberinto. Posteriormemte, este código se ha desactivado y el control del movimiento se realiza mediante el rotary encoder.
+
 Teletransporte: Reinicia la posición del "Player" a una posición determinada del laberinto cuando se entra en contacto con el onjeto (trigger) que contiene asignado este script.
